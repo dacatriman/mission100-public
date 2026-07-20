@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-labelledby="title desc">
+  <title id="title">Aurora — Southern Europe Crew</title>
+  <desc id="desc">Southern Europe Mission 100 crew emblem</desc>
+  <circle cx="380" cy="380" r="360" fill="#06152B"/>
+  <circle cx="380" cy="380" r="312" fill="none" stroke="#55D9FF" stroke-width="18"/>
+  <circle cx="380" cy="380" r="276" fill="none" stroke="#0E78C6" stroke-width="4" stroke-dasharray="14 18"/>
+  <path d="M130 404c92-116 223-165 362-128 65 18 116 55 149 104" fill="none" stroke="#55D9FF" stroke-width="24" stroke-linecap="round"/>
+  <path d="M208 444c76-52 166-72 257-48 41 11 79 32 108 61" fill="none" stroke="#F7FBFF" stroke-width="6" opacity=".8"/>
+  <path d="M382 151 457 308 417 308 417 471 347 471 347 308 307 308Z" fill="#55D9FF"/>
+  <circle cx="380" cy="512" r="14" fill="#F5C451"/>
+  <text x="380" y="597" text-anchor="middle" fill="#F7FBFF" font-family="Space Grotesk, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="7">AURORA</text>
+  <text x="380" y="645" text-anchor="middle" fill="#55D9FF" font-family="Aptos, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="3">SOUTHERN EUROPE CREW</text>
+</svg>
+
