@@ -2,9 +2,9 @@
 const progress=window.MISSION100_PUBLIC_PROGRESS||{crews:{}};
 const monthValue=function(crew,month){const value=Number(progress.crews&&progress.crews[crew]&&progress.crews[crew].months&&progress.crews[crew].months[month]);return Number.isFinite(value)?Math.max(0,value):0;};
 const c=[
-{n:"AURORA",r:"Southern Europe",d:"Signal crew - clarity, connection and forward momentum.",k:"aurora",logo:"assets/aurora.svg",months:[{m:"JUL",x:0},{m:"AUG",x:0},{m:"SEP",x:0}]},
-{n:"SOLARIS",r:"Iberia",d:"Forge crew - energy, resilience and sustained impact.",k:"solaris",logo:"assets/solaris.svg",months:[{m:"JUL",x:0},{m:"AUG",x:0},{m:"SEP",x:0}]},
-{n:"VECTOR",r:"Central Europe",d:"Vanguard crew - precision, pace and purposeful execution.",k:"vector",logo:"assets/vector.svg",months:[{m:"JUL",x:0},{m:"AUG",x:0},{m:"SEP",x:0}]}
+{n:"AURORA",r:"Southern Europe",d:"Signal crew - clarity, connection and forward momentum.",k:"aurora",logo:"assets/aurora.svg",months:[{m:"JUL",x:21},{m:"AUG",x:0},{m:"SEP",x:0}]},
+{n:"SOLARIS",r:"Iberia",d:"Forge crew - energy, resilience and sustained impact.",k:"solaris",logo:"assets/solaris.svg",months:[{m:"JUL",x:29},{m:"AUG",x:0},{m:"SEP",x:0}]},
+{n:"VECTOR",r:"Central Europe",d:"Vanguard crew - precision, pace and purposeful execution.",k:"vector",logo:"assets/vector.svg",months:[{m:"JUL",x:24},{m:"AUG",x:0},{m:"SEP",x:0}]}
 ];document.getElementById("grid").innerHTML=c.map(function(q){
   var fuel=q.months.reduce(function(sum,m){return sum+Math.max(0,m.x)},0);
   var remaining=fuel;
